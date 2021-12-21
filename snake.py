@@ -59,6 +59,7 @@ while key != ESC:
 	# WTF use a fucking queue bro, it's O(1)
 	# this code sucks
 
+
     # check if we hit the border
     if y == 0: break
     if y == WINDOW_HEIGHT-1: break
@@ -87,3 +88,4 @@ while key != ESC:
 curses.endwin()
 print(f"Final score = {score}")
 print("Puntuació Andreu: -999999")
+print("I see you")
