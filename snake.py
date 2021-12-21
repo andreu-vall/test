@@ -84,3 +84,4 @@ while key != ESC:
 
 curses.endwin()
 print(f"Final score = {score}")
+print("Puntuació Andreu: -999999")
