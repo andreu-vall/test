@@ -58,7 +58,7 @@ while key != ESC:
     snake.insert(0, (y, x)) # append O(n)
 	# WTF use a fucking queue bro, it's O(1)
 	# this code sucks
-	assert False
+	assert True
 
     # check if we hit the border
     if y == 0: break
